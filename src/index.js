@@ -3,7 +3,7 @@
 
 module.exports = function towelSort (matrix) {
   matrix=matrix.concat(...matrix);
-  return matrix.sort((a,b) => {
+  return matrix.sort(function(a,b) {
       return a-b;
   });
 }
