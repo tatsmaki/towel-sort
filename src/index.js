@@ -2,8 +2,8 @@
 // You should implement your task here.
 
 module.exports = function towelSort (matrix) {
-  matrix= new matrix.concat(...matrix);
-  return matrix.sort((a,b) => {
+  let array= matrix.concat(...matrix);
+  return array.sort((a,b) => {
       return a-b;
   });
 }
